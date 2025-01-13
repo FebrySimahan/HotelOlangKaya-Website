@@ -1,0 +1,51 @@
+body{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pemisah1{
+    margin-top: 3%;
+}
+
+.pemisah2{
+    margin-top: 3%;
+    margin-bottom: 6%;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+span {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+li{
+    list-style-type: none;
+}
+
+.tanggalCheck{
+    margin-left: 5%;;
+}
+
+.Row{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.gambar{
+    padding-right: 0px;
+}
+
+
+input:disabled::placeholder {
+    color: #999999; 
+}
+.form-control::placeholder {
+    color: lightgray;
+    opacity: 1;
+}

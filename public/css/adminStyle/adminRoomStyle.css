@@ -1,0 +1,12 @@
+body{
+    background-color: #2A114B;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button-tambah-kamar{
+    background-color: #4a2d56; 
+    display: inline-block;
+    width: 80%; 
+    text-align: center;
+    border: none;
+}

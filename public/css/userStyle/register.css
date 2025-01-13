@@ -1,0 +1,369 @@
+form {
+    width: 40%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+}
+
+.regisTombol{
+    background-color: #6f3b6d;
+    color: white;
+}
+.regisTombol p{
+    margin-bottom: 0.5%;
+}
+
+
+body{
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 10% 0% 10% 0%;
+}
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.divider hr {
+    flex: 1;
+    border: 0;
+    border-top: 1px solid #7d7d7d;
+    margin: 10px 20px;
+}
+
+.divider span {
+    padding: 0 10px;
+    font-size: 14px;
+    color: #824D69;
+}
+
+.mata {
+    position: relative;
+}
+
+.mata input {
+    padding-right: 40px; 
+}
+
+.mata i {
+    position: absolute;
+    right: 10px; 
+    top: 50%;
+    transform: translateY(-50%); 
+    color: #555; 
+    cursor: pointer; 
+}
+
+.social-login-buttons .btn {
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid thin;
+}
+.social-login-buttons .tombol{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-login-buttons .btn i {
+    margin-right: 5px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-center a {
+    text-decoration: none;
+}
+
+.text-center a:hover {
+    text-decoration: underline;
+}
+
+.navbar-brand{
+    color: black;
+}
+
+.container-card {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card-wrapper {
+    display: flex;
+}
+
+.card-list {
+    display: flex;
+    list-style: none;
+}
+
+.card-item {
+    margin-left: 15px;
+}
+
+.card-text {
+    line-height: 1.5;
+}
+
+.location {
+    display: block;
+    margin-top: 0;
+    font-size: 14px;
+}
+
+.rating-icon{
+    color: gold;
+}
+
+.rating-sum{
+    color: lightgray;
+}
+
+.icon-card{
+    width: 50px;
+    height: 50px;
+}
+
+.card-title{
+    color: #2A114B;
+    font-weight: bold;
+}
+
+.card-text{
+    color: #2A114B;
+}
+
+.form-control {
+    background-color: white;
+    border-radius: 2px;
+    color: gray;
+}
+
+.form-control::placeholder {
+    color: lightgray;
+    opacity: 1;
+}
+
+.btn-outline-secondary {
+    background-color: #5a2d56;
+    color: white;
+    border: none;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #4a2d56;
+    color: white;
+}
+
+.footer-title-hotelname{
+    color: #824D69;
+}
+
+@media (max-width: 1200px) {
+    form {
+        width: 50%;
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .card-item {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 992px) {
+    form {
+        width: 50%;
+        margin-top: 6%;
+        margin-bottom: 6%;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .social-login-buttons .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .container-card {
+        flex-direction: column;
+    }
+
+    .card-list {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .card-item {
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    .mata input {
+        padding-right: 35px;
+    }
+
+    .card-title {
+        font-size: 18px;
+    }
+
+    .card-text {
+        font-size: 14px;
+    }
+
+    .footer-title-hotelname {
+        font-size: 16px;
+    }
+
+    .social-login-buttons {
+        display: flex;
+        flex-direction: row; 
+        align-items: center;   
+        gap: 10px;
+    }
+
+    .social-login-buttons .btn {
+        width: 100%; 
+        max-width: 300px; 
+        font-size: 14px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social-login-buttons .tombol {
+        width: 120%; 
+        max-width: 470px; 
+        font-size: 14px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .divider span {
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 20px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    form {
+        width: 70%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .social-login-buttons .btn {
+        width: 38%;
+        margin-bottom: 10px;
+        display: flex;
+    }
+
+    .social-login-buttons {
+        display: flex;
+        justify-content: space-between;
+        gap: 5px; 
+    }
+
+    .social-login-buttons .btn {
+        flex: 1; 
+    }
+
+    .social-login-buttons .tombol {
+        width: 100%;
+    }
+
+    .card-item {
+        margin-bottom: 20px;
+    }
+
+    .mata input {
+        padding-right: 30px;
+    }
+
+    .card-title {
+        font-size: 16px;
+    }
+
+    .card-text {
+        font-size: 12px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        background-color: #f8f8f8;
+    }
+
+    .footer-title-hotelname {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .footer-links a {
+        font-size: 12px;
+        color: #824D69;
+        text-decoration: none;
+    }
+
+    .footer-links a:hover {
+        text-decoration: underline;
+    }
+}

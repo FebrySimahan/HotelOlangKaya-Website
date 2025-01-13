@@ -1,0 +1,33 @@
+body{
+    background-color: #3E206D;
+    font-family: 'Poppins', sans-serif;
+}
+
+.welcome-card {
+    border-radius: 15px;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #F6F6F6;
+    color: #3E206D;
+    max-width: 900px;
+}
+
+.welcome-card .profile-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border: 3px solid #3E206D;
+}
+
+.welcome-card h2 {
+    font-size: 2rem;
+}
+
+.welcome-card p {
+    font-size: 1.2rem;
+}

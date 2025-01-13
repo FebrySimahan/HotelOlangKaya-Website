@@ -1,0 +1,85 @@
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2A114B;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    color: white;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer-content-container p {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.footer-content-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content-container li {
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+footer .form-control {
+    background-color: #2A114B;
+    border: 3px solid #5a2d56;
+    border-radius: 2px;
+    color: white;
+}
+
+.form-control::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.btn-outline-secondary {
+    background-color: #5a2d56;
+    color: white;
+    border: none;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #4a2d56;
+    color: white;
+}
+
+.footer-title-hotelname {
+    color: #824D69;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-content-container {
+        align-items: center; 
+        text-align: center;
+    }
+
+    .input-group {
+        width: 100%;
+    }
+
+    footer .form-control {
+        width: 100%;
+    }
+
+    .btn-outline-secondary {
+        width: 100%;
+    }
+}

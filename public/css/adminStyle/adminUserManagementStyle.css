@@ -1,0 +1,22 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+input.search-input::placeholder{
+    color: #6c757d;
+    opacity: 1 !important;
+}
+
+#tabel-pengguna{
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#tabel-admin{
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
